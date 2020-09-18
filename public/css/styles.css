@@ -1,0 +1,86 @@
+:root {
+  --primary: coral;
+}
+
+h1 {
+  color: gray;
+  padding: 20px;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+}
+
+section {
+  max-width: 960px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  background: var(--primary);
+}
+.profile-pic {
+  width: 300px;
+}
+
+nav {
+  margin: 20px 10px;
+  margin-left: auto;
+  padding: 10px;
+}
+
+nav a {
+  background: white;
+  padding: 5px 10px;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  margin: 5px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: 2px solid white;
+  background: var(--primary);
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: var(--primary);
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+input {
+  padding: 8px 20px;
+}
+
+button {
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  /* border: 2px solid var(--primary); */
+  color: var(--primary);
+  background-color: white;
+}
