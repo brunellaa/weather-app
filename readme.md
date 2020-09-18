@@ -1,1 +1,1 @@
-nodemon src/app.js -e js,hbs
+Node practice project, weather App
