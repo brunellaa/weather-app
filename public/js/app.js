@@ -14,7 +14,12 @@ weatherForm.addEventListener("submit", (e) => {
         ? (messageOne.textContent = error)
         : (messageOne.textContent = location),
         (messageTwo.textContent =
-          forecast.summary + " " + forecast.temp + "°c");
+          forecast.summary +
+          " " +
+          forecast.temp +
+          "°c" +
+          " Cloud count:" +
+          forecast.clouds);
     });
   });
 });
